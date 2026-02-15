@@ -2,7 +2,21 @@
 <img src="./seratux.png" alt="Seratux" style="margin: 20px 0;">
 </p>
 
-**Seratux** is a collection of scripts to install and configure Serato on Linux.
+<p align="center">
+<b>Seratux</b> is a collection of scripts to install and configure Serato on Linux.
+</p>
+
+## Usage
+
+You need to download the [Serato Windows installer](https://serato.com/dj/pro/downloads). The install script then launch the configure script. 
+
+```bash
+# Install and configure
+./install.sh /path/to/SeratoDJPro.exe
+
+# Configure only
+./configure.sh 
+```
 
 ## Things to Know
 
@@ -14,3 +28,4 @@
 ## Remaining Work
 
 - Support for passthrough to enable MIDI and USB devices to work.
+- Support for Spotify and other providers authentication callbacks.
