@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\seratodjpro]
+@="URL:Serato DJ Pro Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\seratodjpro\shell]
+
+[HKEY_CLASSES_ROOT\seratodjpro\shell\open]
+
+[HKEY_CLASSES_ROOT\seratodjpro\shell\open\command]
+@="\"C:\\Program Files\\Serato\\Serato DJ Pro\\Serato DJ Pro.exe\" \"%1\""
